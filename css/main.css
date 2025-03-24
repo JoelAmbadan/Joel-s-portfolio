@@ -3022,6 +3022,10 @@ textarea.custom-input {
 
 .webpage__latest-articles {
   margin-bottom: 120px;
+<<<<<<< HEAD
+=======
+  padding-bottom: 120px;
+>>>>>>> 53c6b66 (Initial commit)
 }
 
 .webpage__instagram-block {
@@ -17830,4 +17834,86 @@ textarea.custom-input {
 .header__logo img {
   width: 190px;
 }
+<<<<<<< HEAD
+=======
+}
+
+.viewmoresec{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    background-image: linear-gradient(#ffffffc4, #fffffffc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.viewmoresec a {
+  color: #333;
+  font-size: 20px;
+  background-color: #f5f5f5;
+  padding: 7px 18px;
+  border-radius: 10px;
+}
+
+.bredcum {
+  padding: 30px 10px 10px 10px;
+  background-color: #f9fbfd;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-image: url(../img/footer-bg.jpg);
+  background-size: cover;
+}
+
+.bredcum h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.bredcum ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dis-bre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.padding-pro {
+  padding: 80px 0;
+}
+
+.pojects-sec img{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project-sec-box{
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(#ffffff00, #fffffffc);
+    width: 100%;
+    padding-left: 35px;
+    padding-top: 140px;
+    border-radius: 10px;
+}
+
+.project-sec-box h3{
+    background-color: #ffffffc4;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+
+.padding-pro .type-service__item {
+  margin-bottom: 30px;
+>>>>>>> 53c6b66 (Initial commit)
 }
