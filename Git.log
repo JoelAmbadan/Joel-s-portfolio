@@ -1,0 +1,71 @@
+2025-03-24 21:22:53.088 [info] [main] Log level: Info
+2025-03-24 21:22:53.088 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-03-24 21:22:53.631 [info] [main] Using git "2.47.0.windows.2" from "C:\Program Files\Git\cmd\git.exe"
+2025-03-24 21:22:53.631 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-24 21:22:54.317 [info] > git rev-parse --show-toplevel [137ms]
+2025-03-24 21:22:54.626 [info] > git rev-parse --git-dir --git-common-dir [288ms]
+2025-03-24 21:22:54.655 [info] [Model][openRepository] Opened repository: c:\xampp\htdocs\Joel-s-portfolio
+2025-03-24 21:22:54.943 [info] > git rev-parse --show-toplevel [134ms]
+2025-03-24 21:22:54.945 [info] > git config --get commit.template [148ms]
+2025-03-24 21:22:55.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [105ms]
+2025-03-24 21:22:55.106 [info] > git rev-parse --show-toplevel [132ms]
+2025-03-24 21:22:55.247 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [145ms]
+2025-03-24 21:22:55.255 [info] > git rev-parse --show-toplevel [136ms]
+2025-03-24 21:22:55.278 [info] > git fetch [622ms]
+2025-03-24 21:22:55.278 [info] fatal: unable to access 'https://github.com/JoelAmbadan/Joel-s-portfolio.git/': Could not resolve host: github.com
+2025-03-24 21:22:55.340 [info] > git status -z -uall [260ms] (cancelled)
+2025-03-24 21:22:55.420 [info] > git rev-parse --show-toplevel [148ms]
+2025-03-24 21:22:55.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [168ms]
+2025-03-24 21:22:55.505 [info] > git config --get commit.template [177ms]
+2025-03-24 21:22:55.507 [info] > git config --get commit.template [167ms]
+2025-03-24 21:22:55.530 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [164ms]
+2025-03-24 21:22:55.552 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [168ms]
+2025-03-24 21:22:55.629 [info] > git config --get --local branch.main.vscode-merge-base [128ms]
+2025-03-24 21:22:55.629 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-24 21:22:55.645 [info] > git rev-parse --show-toplevel [213ms]
+2025-03-24 21:22:55.650 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-24 21:22:55.658 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [111ms]
+2025-03-24 21:22:55.696 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [106ms]
+2025-03-24 21:22:55.701 [info] > git status -z -uall [130ms]
+2025-03-24 21:22:55.749 [info] > git reflog main --grep-reflog=branch: Created from *. [106ms]
+2025-03-24 21:22:55.769 [info] > git config --get --local branch.main.vscode-merge-base [97ms]
+2025-03-24 21:22:55.769 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-24 21:22:55.803 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [84ms]
+2025-03-24 21:22:55.832 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [74ms]
+2025-03-24 21:22:55.832 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-24 21:22:55.832 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-24 21:22:55.852 [info] > git reflog main --grep-reflog=branch: Created from *. [75ms]
+2025-03-24 21:22:55.878 [info] > git config --get --local branch.main.vscode-merge-base [69ms]
+2025-03-24 21:22:55.878 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-24 21:22:55.924 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [66ms]
+2025-03-24 21:22:55.924 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-24 21:22:55.924 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-24 21:22:55.947 [info] > git reflog main --grep-reflog=branch: Created from *. [63ms]
+2025-03-24 21:22:56.004 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [52ms]
+2025-03-24 21:22:56.004 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-24 21:22:56.004 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-24 21:23:05.126 [info] > git check-ignore -v -z --stdin [102ms]
+2025-03-24 21:23:06.694 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [6242ms]
+2025-03-24 21:23:15.169 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [7194ms]
+2025-03-24 21:23:48.141 [info] > git push [13120ms]
+2025-03-24 21:23:48.141 [info] fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+2025-03-24 21:23:59.838 [info] > git config --get commit.template [5148ms]
+2025-03-24 21:23:59.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [64ms]
+2025-03-24 21:23:59.927 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [70ms]
+2025-03-24 21:23:59.936 [info] > git status -z -uall [86ms]
+2025-03-24 21:25:58.426 [info] > git push -u origin main [275ms]
+2025-03-24 21:25:58.427 [info] fatal: unable to access 'https://github.com/JoelAmbadan/Joel-s-portfolio.git/': Could not resolve host: github.com
+2025-03-24 21:25:58.445 [info] > git fetch [311ms]
+2025-03-24 21:25:58.445 [info] fatal: unable to access 'https://github.com/JoelAmbadan/Joel-s-portfolio.git/': Could not resolve host: github.com
+2025-03-24 21:25:58.539 [info] > git config --get commit.template [105ms]
+2025-03-24 21:25:58.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [107ms]
+2025-03-24 21:25:58.559 [info] > git config --get commit.template [103ms]
+2025-03-24 21:25:58.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [104ms]
+2025-03-24 21:25:58.739 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [138ms]
+2025-03-24 21:25:58.752 [info] > git status -z -uall [164ms]
